@@ -331,7 +331,7 @@ input:focus ,textarea:focus{
         transition: transform .3s ease-in-out;
     }
     .navlist-active{
-        transform: translateX(10%);
+        transform: translateX(0%);
     }
     .hamburger{
         display: block;
