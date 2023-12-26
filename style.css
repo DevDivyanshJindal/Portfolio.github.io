@@ -157,7 +157,7 @@ img{
 .img-container{
     height:60vh;
     width: 25rem;
-    background: linear-gradient(var(--secondary-pink), var(--secondary-grey));
+    background: linear-gradient(var(--secondary-pink), transparent);
     border-radius: 50% 50% 0 0;
     position: relative;
 }
@@ -311,4 +311,50 @@ input:focus ,textarea:focus{
 .footer-section{
     padding: 2rem 0;
     text-align: center;
-}             
+}
+
+
+
+/* ---Media Quaries---- */
+@media screen and (max-width :500px){
+    .body{
+        overflow-y: hidden;
+    }
+    .navlist{
+        background: var(--white);
+        position: absolute;
+        flex-direction: column;
+        top: 10%;
+        right: 0;
+        padding: 2rem 4rem;
+        transform: translateX(100%);
+        transition: transform .3s ease-in-out;
+    }
+    .navlist-active{
+        transform: translateX(10%);
+    }
+    .hamburger{
+        display: block;
+    }
+    .img-container{
+        display: none;
+    }
+    .container ,.navbar, .form{
+        width: 100%;
+    }
+    .content, p{
+        max-width: 100%;
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    .skill-container ,.grid-card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
