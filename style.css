@@ -327,7 +327,7 @@ input:focus ,textarea:focus{
         top: 10%;
         right: 0;
         padding: 2rem 4rem;
-        transform: translateX(0%);
+        transform: translateX(-20%);
         transition: transform .3s ease-in-out;
     }
     .navlist-active{
