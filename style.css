@@ -316,7 +316,7 @@ input:focus ,textarea:focus{
 
 
 /* ---Media Quaries---- */
-@media screen and (max-width :500px){
+@media screen and (max-width :580px){
     body{
         overflow-x: hidden;
     }
