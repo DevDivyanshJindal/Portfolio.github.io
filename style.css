@@ -318,7 +318,7 @@ input:focus ,textarea:focus{
 /* ---Media Quaries---- */
 @media screen and (max-width :500px){
     .body{
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     .navlist{
         background: var(--white);
@@ -331,7 +331,7 @@ input:focus ,textarea:focus{
         transition: transform .3s ease-in-out;
     }
     .navlist-active{
-        transform: translateX(0%);
+        transform: translateX(-20%);
     }
     .hamburger{
         display: block;
