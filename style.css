@@ -327,10 +327,11 @@ input:focus ,textarea:focus{
         top: 10%;
         right: 0;
         padding: 2rem 4rem;
-        transform: translateX(100%);
+        transform: translateX(0%);
         transition: transform .3s ease-in-out;
     }
     .navlist-active{
+        transform: translateX(-20%);
     }
     .hamburger{
         display: block;
