@@ -317,9 +317,20 @@ input:focus ,textarea:focus{
 
 /* ---Media Quaries---- */
 @media screen and (max-width :500px){
-    html, body{
-        overflow-x: hidden;
-    }
+html {
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100vw; 
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
     .navlist{
         background: var(--white);
         position: absolute;
